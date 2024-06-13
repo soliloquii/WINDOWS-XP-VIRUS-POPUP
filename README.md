@@ -1,1 +1,2 @@
 # WINDOWS-XP-VIRUS-POPUP
+![PREVIEW](https://github.com/soliloquii/WINDOWS-XP-VIRUS-POPUP/assets/82063288/0cc679a2-7655-4b3c-9390-40de14b6a76b)
