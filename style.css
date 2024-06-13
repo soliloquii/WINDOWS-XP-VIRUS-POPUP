@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+@font-face {
+    font-family: "MS Sans Serif";
+    src: url("https://assets.codepen.io/345377/ms-sans-serif.woff2") format("woff2");
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "MS Sans Serif";
+    src: url("https://assets.codepen.io/345377/ms-sans-serif-bold.woff2") format("woff2");
+    font-weight: bold;
+    font-display: swap;
+}
+
+
+
+:root {
+    --bg-color: #417c82;
+    --content-bg-color: #c0c0c0;
+    --headbar-blue: #01007a;
+    --8-bit-font: "VT323",monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-width: 2px;
+    font-family: "MS Sans Serif",
+        Tahoma,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+img {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 15px;
+    margin-left: 2px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-color);
+}
+
+.container {
+    width: 400px;
+    background-color: var(--content-bg-color);
+    display: flex;
+    align-content: center;
+    box-shadow: inset -1px -1px 0 0 #464147, inset 1px 1px 0 0 white, inset -2px -2px 0 0 #a099a1, inset 2px 2px 0 0 #dedcde;
+}
+
+.headbar {
+    position: grid;
+    position: relative;
+    background-color: var(--headbar-blue);
+    color: white;
+    height: auto;
+    /* align-items: center; */
+    margin: 2px;
+    padding: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.icon  {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+}
+
+.headbar h4 {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.headbar button {
+    width: auto;
+    height: 20px;
+    color: gray;
+    font-size: 12px;
+    line-height: 0px;
+    padding-bottom: 5px;
+}
+
+.exit-bttn {
+    /* display: inline-block; */
+    float: right;
+}
+
+.preview-img img {
+    width: auto;
+    height: 200px;
+    box-shadow: inset -2px -2px 0 0 #464147, inset 3px 3px 0 0 white, inset -3px -3px 0 0 #a099a1, inset 3px 3px 0 0 #dedcde;
+}
+
+.main-content {
+    display: grid;
+    position: relative;
+    margin: auto;
+    padding: 5px;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.preview-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.text h4 {
+    display: flex;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+span {
+    display: grid;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    width: 89%;
+}
+
+.buttons {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    justify-content: space-between;
+    
+}
+
+button {
+    box-shadow: inset -1px -1px 0 0 #464147, inset 1px 1px 0 0 white, inset -2px -2px 0 0 #a099a1, inset 2px 2px 0 0 #dedcde;
+    background: #cac6cb;
+    padding: 5px;
+}
+
+button:active {
+    background-color: white;
+    background-image: linear-gradient(45deg, #efeef0 25%, transparent 25%, transparent 75%, #efeef0 75%, #efeef0), linear-gradient(45deg, #efeef0 25%, transparent 25%, transparent 75%, #efeef0 75%, #efeef0);
+    background-size: 2px 2px;
+    background-position: 0 0, 1px 1px;
+    box-shadow: inset -1px -1px 0 0 white, inset 1px 1px 0 0 #464147, inset -2px -2px 0 0 #dedcde, inset 2px 2px 0 0 #cac6cb;
+    color: #464147;
+}
+
+.headbar button:active {
+    color: gray;
+}
+
+.buttons button {
+    width: auto;
+}
+
+.buttons .cry {
+    position: sticky;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.buttons .pay-now {
+    position: sticky;
+    padding-right: 35px;
+    padding-left: 35px;
+}
